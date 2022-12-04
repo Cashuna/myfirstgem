@@ -2,6 +2,12 @@ Unreleased
 - update gemspec to limit which versions of any dependency can be used
 
 2022-12-04 Changes
+0.1.6
+ Fix
+ - changes self to the new class name, because the class needs to be instantiated to call the new method.
+0.1.5
+ Add
+ - adds a new class to expand the create new methods
 0.1.4
  Updates
  - modifies gem to use Rack (instead of using config.ru in the app using this custom gem)
