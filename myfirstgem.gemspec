@@ -35,6 +35,7 @@ Gem::Specification.new do |spec|
 # NOTE: dependency releases correspond with rails -v 6.1.7
   spec.add_dependency "rack", "~> 3.0.0"
   spec.add_dependency "puma", "~> 6.0.0"
+  spec.add_development_dependency "rack-test"
 
   # For more information and examples about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html
